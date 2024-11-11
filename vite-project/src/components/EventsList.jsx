@@ -1,10 +1,10 @@
 
-export default function EventsList() {
-
+export default function Blogs() {
     return (
         <>
-            <p>малювання</p>
-            <p>анімація</p>
+            <main>
+                <h1>Events </h1>
+            </main>
         </>
     );
 }

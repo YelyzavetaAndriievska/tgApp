@@ -15,14 +15,16 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home.jsx";
 import Blogs from "./pages/Blogs.jsx";
 import Contact from "./pages/Contact.jsx";
+import EventsList from "./components/EventsList.jsx"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<Navbar />}>
+      <Route path="/" element={<Home />}>
         <Route index element={<Home />} />
         <Route path="blogs" element={<Blogs />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<Contact />} />        
+        <Route path="events" element={<EventsList />} />
       </Route>
     </>
   )

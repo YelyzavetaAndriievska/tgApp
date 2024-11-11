@@ -15,6 +15,9 @@ export default function Navbar() {
             <li>
               <Link to="contact">Фрайбург</Link>
             </li>
+            <li>
+              <Link to="events">Events</Link>
+            </li>
           </ul>
         </nav>
       </header>
